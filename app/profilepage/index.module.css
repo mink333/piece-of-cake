@@ -12,7 +12,7 @@
 
 .listbox {
   width: 100%;
-  height: calc(100vh - 120px);
+  height: calc(100vh - 96px);
   background-color: var(--main-glassy);
   overflow-y: scroll;
 }
@@ -25,6 +25,11 @@
   padding-bottom: 100px;
 }
 
+.margin {
+  flex-basis: 400px;
+  flex-grow: 1;
+}
+
 @media screen and (min-width: 768px) {
 
   .controler {
@@ -35,7 +40,7 @@
     align-items: center;
   }
 
-  .sortwrap{
+  .sortwrap {
     display: flex;
     gap: 12px;
   }
@@ -86,7 +91,7 @@
     color: var(--main);
   }
 
-  .search{
+  .search {
     padding: 12px;
     background-color: transparent;
     border: none;
@@ -207,14 +212,15 @@
     margin-left: 12px;
     color: var(--main);
   }
-  .search{
+
+  .search {
     padding: 12px;
     background-color: transparent;
     border: none;
     cursor: pointer;
   }
 
-  .listwrap{
+  .listwrap {
     gap: 10px;
     margin: 10px;
   }
